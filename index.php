@@ -45,6 +45,22 @@ if($umurClara < 20 ){
     echo 'Minum Amer';
 }
 
+echo"<h1> Belajar Else If</h1>";
+
+$uangClara = 500;
+$hargaSosis = 3000;
+$hargaTelur = 1000;
+
+if($uangClara >= $hargaSosis) {
+    echo 'Beli Sosis Aja Sudah Kamu Clara';
+} else if
+    ($uangClara >= $hargaTelur) {
+    echo 'Beli Telur aja sudah kamu clara';
+    
+} else {
+    echo 'Beli yang lain aja sudah uangmu ga cukup beli dua2nya';
+}
+
 ?>
     </body>
 </html>
