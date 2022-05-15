@@ -18,6 +18,26 @@ echo"<br>Nama Murid Universtitas A: $namaMurid </br>";
 echo"<br>Warna Mobil $namaMurid : $warnaMobil </br>";
 echo"<br>umur $namaMurid : $umurCalvin</br>";
 echo"<br> berat badan $namaMurid : $beratBadanCalvin</br>";
+echo"<br> Apakah $namaMurid : itu $isSmart ?</br>";
+
+
+echo"<h1> Belajar Shorthand Operator</h1>";
+
+$uangBapak = 20000;
+$hargaAyam = 10000;
+
+$uangBapak - $hargaAyam;
+$uangBapak -= $hargaAyam; //$uangBapak = $uangBapak-$hargaAyam//
+
+echo "<br>Uang Bapak Setelah ini beli ayam:$uangBapak </br>";
+
+$uangBapak += 1000;
+
+echo "Uang bapak setelah dapat bonus: $uangBapak;";
+
+
+
+
 
 
 ?>
