@@ -35,10 +35,15 @@ $uangBapak += 1000;
 
 echo "Uang bapak setelah dapat bonus: $uangBapak;";
 
+echo"<h1> Belajar contitional statement hands On</h1>";
 
+$umurClara = 22;
 
-
-
+if($umurClara < 20 ){
+    echo 'Minum susu';
+} else{
+    echo 'Minum Amer';
+}
 
 ?>
     </body>
