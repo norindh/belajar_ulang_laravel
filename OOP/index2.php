@@ -2,7 +2,6 @@
 <html>
     <body>
         <?php
-
 class Cat {
     public $warnaKucing;//atribute or property//
     public $jenisKucing; //atribute or porperty//
